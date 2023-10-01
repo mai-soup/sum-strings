@@ -1,0 +1,23 @@
+{
+  "name": "sum-strings",
+  "version": "0.0.0",
+  "description": "Sum numbers as strings, get a string back.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mai-soup/sum-strings.git"
+  },
+  "keywords": [
+    "sum",
+    "math"
+  ],
+  "author": "Maijs Garais",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mai-soup/sum-strings/issues"
+  },
+  "homepage": "https://github.com/mai-soup/sum-strings#readme"
+}
