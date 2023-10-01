@@ -4,7 +4,7 @@
   "description": "Sum numbers as strings, get a string back.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/mai-soup/sum-strings/issues"
   },
-  "homepage": "https://github.com/mai-soup/sum-strings#readme"
+  "homepage": "https://github.com/mai-soup/sum-strings#readme",
+  "devDependencies": {
+    "chance": "^1.1.11",
+    "jest": "^29.7.0"
+  }
 }
