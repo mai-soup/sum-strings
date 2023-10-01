@@ -1,21 +1,21 @@
-# @maijs/sum-strings
+# string-sum
 An NPM library to sum strings and return the result as a string.
 
 ## Installation
 
 ```bash
-npm install @maijs/sum-strings
+npm install string-sum
 ```
 
 ## Usage
 
 ```js
-const sumStrings = require('sum-strings')
+const stringSum = require('string-sum')
 
-sumStrings('123', '456') // '579'
+stringSum('123', '456') // '579'
 
 // works with "numbers" bigger than max integer or even BigInt value
-sumStrings(
+stringSum(
   '999999999999999999999999999999999999999999999999999999999', '9999999999999999999999999999999999999999999999999999999999')
 // returns '1999999999999999999999999999999999999999999999999999999998'
 ```
