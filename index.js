@@ -5,6 +5,9 @@ const parseOrZero = n => {
 }
 
 function sumStrings(a, b) {
+  if (typeof a !== 'string' || typeof b !== 'string')
+    throw new Error('Invalid arguments')
+
   const [shorter, longer] = a.length <= b.length ? [a, b] : [b, a]
 
   const shortReversed = shorter.split('').reverse()
@@ -36,3 +39,5 @@ function sumStrings(a, b) {
 
   return cleanSum
 }
+
+module.exports = sumStrings
