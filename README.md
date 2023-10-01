@@ -1,10 +1,10 @@
-# sum-strings
+# @maijs/sum-strings
 An NPM library to sum strings and return the result as a string.
 
 ## Installation
 
 ```bash
-npm install sum-strings
+npm install @maijs/sum-strings
 ```
 
 ## Usage
